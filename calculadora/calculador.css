@@ -1,0 +1,56 @@
+/* Estilo para el contenedor de la calculadora */
+
+.calculadora{
+    display:block;
+    margin:0 auto;
+    padding:20px;
+    background-color: #ECDBBA;
+    border: 2px solid #2d4263;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 500px;
+}
+.calculadora td button {
+    display:block;
+    width:70px;
+    height: 70px;
+    font-size:px;
+}
+/* Estilo para los botones dentro de las celdas de la calculadora */
+    .calculadora td button:active {
+        background-color: #c0b9ac; /* Cambia el color al presionar */
+        transform: scale(0.95);
+}
+/* Estilo para el elemento con el id "creditos" */
+#creditos{
+    display:block;
+    padding-top:20px;
+    color:#fff;
+    text-align: center;
+    width:300px;
+  }
+/* Estilo para el elemento con el id "resultado" */
+#resultado{
+    display:block;
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+    width:300px;
+    height: 100px;
+    Line-height: 100px;
+    background-color: aqua;
+    border-radius: 25px;
+    overflow:scroll;
+
+
+}
+/* Estilo para el cuerpo de la página */
+body {
+    background: linear-gradient(to bottom right, #00ff00, #0000ff);
+}
+
+
+
+
+

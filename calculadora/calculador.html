@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+     content="width=device-width, initial-scale=1.0">
+    <title> calculadora html css y js 4 operaciones básicas limpiar pantalla</title>
+    <link rel="stylesheet" href="calculador.css">
+
+</head> 
+<body onload="init();">
+
+<!-- La calculadora se representa como una tabla con botones -->
+    <table class="calculadora">
+    <tr>
+        <!-- Celda para mostrar el resultado -->
+          <td colspan="4"><span id="resultado"></span>
+        </td>
+    </tr>
+    <tr>
+     <!-- Botones para los dígitos del 7 al 9 y el botón de división -->
+        <td><button id ="siete">7</button></td>
+        <td><button id ="ocho">8</button></td>
+        <td><button id ="nueve">9</button></td>
+        <td><button id ="division">/</button></td>
+  </tr>
+  <tr>
+    <!-- Botones para los dígitos del 4 al 6 y el botón de multiplicación -->
+        <td><button id ="cuatro">4</button></td>
+        <td><button id ="cinco">5</button></td>
+        <td><button id ="seis">6</button></td>
+        <td><button id ="multiplicacion">*</button></td>
+  </tr>
+  <tr>
+     <!-- Botones para los dígitos del 1 al 3 y el botón de resta -->
+        <td><button id ="uno">1</button></td>
+        <td><button id ="dos">2</button></td>
+        <td><button id ="tres">3</button></td>
+        <td><button id ="resta">-</button></td>
+  </tr>
+  <tr>
+      <!-- Botones para el 0, el botón de reset (C), el botón de igual (=) y el botón de suma -->
+    <td><button id ="cero">0</button></td>
+    <td><button id ="reset">C</button></td>
+    <td><button id ="igual">=</button></td>
+    <td><button id ="suma">+</button></td>
+</tr>
+    </table>
+ <!-- Se incluye el script de JavaScript -->
+<script src="calculador.js"></script>
+
+</body>
+</html>

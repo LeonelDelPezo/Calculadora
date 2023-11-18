@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request":"launch",
+        "name": "Open calculador.html",
+        "file": "C:\\Users\\RAUL\\Documents\\6TO SEMESTRE TICS\\DESARROLLO DE APLICACIONES WEB\\UNIDAD 1\\unidad1\\calculadora\\calculador.html"
+      }
+    ]
+  }
+  
